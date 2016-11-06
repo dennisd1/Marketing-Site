@@ -38,7 +38,8 @@ collections:
     output: false
   experts:
     name: Experts
-    output: false
+    output: true
+    permalink: /experts/:name/
   staff:
     name: Team Members
     output: false
