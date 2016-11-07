@@ -1,4 +1,4 @@
-﻿---
+---
 sort_key: 4
 name: Brandon Setter
 title: Brandon Setter Case Study
@@ -9,7 +9,7 @@ site: http://brandonsetter.com/
 site_name: Brandon Setter
 tagline: Freelancer
 challenge: |
-  ОСК досталось сложное хозяйство.
+  Brandon Setter is a freelance web designer who creates elegant, hand-crafted websites for his clients.
 
   He was using Wordpress to build client sites. Wordpress could do everything Brandon needed, but he found there was so much overhead in setting it up and maintaining servers. It took him away from what he loved doing.
 
