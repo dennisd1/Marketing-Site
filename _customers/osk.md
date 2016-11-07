@@ -1,7 +1,7 @@
 ---
 sort_key: 5
-name: Brandon Setter
-title: Brandon Setter Case Study
+name: ОСК
+title: Номинант 2016:ОСК
 logo:
   path: /img/customers/brandon/logo.png
   width: 100px
