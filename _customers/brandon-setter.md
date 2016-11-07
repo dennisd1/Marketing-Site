@@ -1,6 +1,6 @@
 ---
 sort_key: 4
-name: ОСК
+name: Brandon Setter
 title: Brandon Setter Case Study
 logo:
   path: /img/customers/brandon/logo.png
