@@ -6,7 +6,7 @@ logo:
   path: /img/customers/brandon/logo.png
   width: 100px
 site: http://brandonsetter.com/
-site_name: Brandon Setter
+site_name: ОСК
 tagline: Freelancer
 challenge: |
   ОСК досталось трудное наследство is a freelance web designer who creates elegant, hand-crafted websites for his clients.
