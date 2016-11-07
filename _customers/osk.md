@@ -1,5 +1,6 @@
 ---
 sort_key: 5
+category: Директор года
 name: ОСК
 title: Номинант 2016:ОСК
 logo:
