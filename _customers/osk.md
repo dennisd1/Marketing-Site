@@ -1,5 +1,5 @@
 ---
-sort_key: 4
+sort_key: 5
 name: Brandon Setter
 title: Brandon Setter Case Study
 logo:
