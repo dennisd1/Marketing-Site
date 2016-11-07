@@ -22,7 +22,7 @@ solution: |
 
   Brandon's clients gave CloudCannon the thumbs up. They found updating in CloudCannon easier and could update sections of the site they couldn't before.
 testimonial:
-  text: "I actually enjoy my experience as a designer when I’m using CloudCannon. It’s simple, beautiful and makes me more efficient. Most of all, I’m pumped because my clients love using it."
+  text: "Это был сложнейший случай, но мы справились."
   image_path: /img/customers/brandon/brandon.jpg
   name: Brandon Setter
   work_title: Owner
