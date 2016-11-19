@@ -3,13 +3,7 @@ layout: default
 ---
 <header class="{{ page.name | slugify }}">
 	<div class="container">
-		<h2>CloudCannon Case Study: <a href="{{ page.site }}"><br>
-			{% if page.hero.width %}
-				<img src="{{ page.hero.path }}" alt="{{ page.name }}" />
-			{% else %}
-				<img width="250" src="{{ page.hero.path }}" alt="{{ page.name }}" />
-			{% endif %}
-		</a></h2>
+		<img src="{{ page.hero.path }}" alt="{{ page.name }}" />
 		<h3>{{ page.tagline }}</h3>
 		<h3>{{ page.categoryline }}</h3>
 		<p><a href="{{ page.site }}" target="_blank">View {{ page.site_name }} &rarr;</a></p>
