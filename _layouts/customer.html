@@ -5,7 +5,7 @@ layout: default
 	<div class="container">
 		<h2>CloudCannon Case Study: <a href="{{ page.site }}"><br>
 			{% if page.hero.width %}
-				<img width="{{ page.hero.width }}" src="{{ page.hero.path }}" alt="{{ page.name }}" />
+				<img src="{{ page.hero.path }}" alt="{{ page.name }}" />
 			{% else %}
 				<img width="250" src="{{ page.hero.path }}" alt="{{ page.name }}" />
 			{% endif %}
@@ -21,6 +21,7 @@ layout: default
 <section>
 	<div class="container text-container">
 		<img src="{{ page.profile.path }}" alt="{{ page.secondname }}" />
+		
 	</div>
 </section>
 <section>
