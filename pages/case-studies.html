@@ -7,7 +7,7 @@ header: Case Studies
 header_subtext: Learn how great companies use CloudCannon
 ---
 
-<div class="customer-grid">
+<div class="blog-posts">
 	{% assign customers = site.customers | sort: 'sort_key' %}
 	{% for customer in customers %}
 		<a class="{{ customer.name | slugify }}" href="{{ customer.url }}">
