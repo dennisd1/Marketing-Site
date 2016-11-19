@@ -5,7 +5,7 @@ name: ОСК
 title: 'Номинант 2016:ОСК'
 logo:
   path: /img/customers/brandon/logo.png
-  width: 100px
+  width: 300px
 site: 'http://brandonsetter.com/'
 site_name: ОСК
 tagline: Freelancer
