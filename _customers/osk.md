@@ -8,7 +8,8 @@ logo:
   width: 300px
 site: 'http://brandonsetter.com/'
 site_name: ОСК
-tagline: Freelancer
+tagline: Номинант 2016 г
+categoryline: "Арбитражный управляющий года"
 challenge: >
   ОСК досталось трудное наследство is a freelance web designer who creates
   elegant, hand-crafted websites for his clients.
