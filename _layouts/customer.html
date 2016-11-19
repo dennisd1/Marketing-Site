@@ -4,10 +4,10 @@ layout: default
 <header class="{{ page.name | slugify }}">
 	<div class="container">
 		<h2>CloudCannon Case Study: <a href="{{ page.site }}"><br>
-			{% if page.logo.width %}
-				<img width="{{ page.logo.width }}" src="{{ page.logo.path }}" alt="{{ page.name }}" />
+			{% if page.hero.width %}
+				<img width="{{ page.hero.width }}" src="{{ page.hero.path }}" alt="{{ page.name }}" />
 			{% else %}
-				<img width="250" src="{{ page.logo.path }}" alt="{{ page.name }}" />
+				<img width="250" src="{{ page.hero.path }}" alt="{{ page.name }}" />
 			{% endif %}
 		</a></h2>
 		<h3>{{ page.tagline }}</h3>
@@ -18,7 +18,11 @@ layout: default
 
 <link type="text/css" rel="stylesheet" href="/css/lightslider.css" />
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
+<section>
+	<div class="container text-container">
+		<img src="{{ page.profile.path }}" alt="{{ page.secondname }}" />
+	</div>
+</section>
 <section>
 	<div class="container text-container">
 		<h2>Описание</h2>
