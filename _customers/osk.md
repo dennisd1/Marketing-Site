@@ -3,13 +3,20 @@ sort_key: 5
 category: Директор года
 name: ОСК
 title: 'Номинант 2016:ОСК'
-logo:
-  path: /img/customers/brandon/logo.png
+nominationslide:
+  path: /a/16.png
   width: 300px
 site: 'http://brandonsetter.com/'
 site_name: ОСК
 tagline: Номинант 2016 г
 categoryline: "Арбитражный управляющий года"
+profile:
+  path: /a/tregubenko.jpg
+  firstname: Ольга
+  secondname: Трегубенко
+  lastname: Викторовна
+  headtitle: Независимый директор
+  experience1: Более 10 лет работы независимым директором
 challenge: >
   ОСК досталось трудное наследство is a freelance web designer who creates
   elegant, hand-crafted websites for his clients.
