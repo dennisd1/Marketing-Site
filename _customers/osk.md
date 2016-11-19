@@ -4,8 +4,8 @@ sort_key: 5
 category: Директор года
 name: ОСК
 title: 'Номинант 2016:ОСК'
-nominationslide:
-  path: /a/16.png
+hero:
+  path: /a/tregobenkohero.jpg
   width: 300px
 site: 'http://brandonsetter.com/'
 site_name: ОСК
