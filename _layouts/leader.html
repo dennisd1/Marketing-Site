@@ -14,8 +14,10 @@ layout: default
 
 <link type="text/css" rel="stylesheet" href="/css/lightslider.css" />
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-<section>
+<section id="profile header">
 	<div class="container text-container">
+		{% assign ename = ename | append: "01" %}
+		{{ ename }}
 		<img src="{{ page.profile.path }}" alt="{{ page.secondname }}" />
 		
 	</div>
