@@ -35,7 +35,6 @@ tagline: Номинант 2016 г
 categoryline: "Арбитражный управляющий года"
 
 overview:
-  overviewshow: true
   - image_path: /a/tregubenko1.jpg
     alt: Living and Learning
   - image_path: /img/customers/brandon/2.jpg
