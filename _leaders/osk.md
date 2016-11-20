@@ -86,5 +86,7 @@ personprojects:
 summary: >
   Brandon ​gets​ sites online and updatable by clients faster than ​before​. He
   doesn’t ​set up​ new servers and his clients are much happier.
+calltitle: Ольга участвует в 
+callbutton: 
 published: true
 ---
