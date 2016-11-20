@@ -43,7 +43,7 @@ collections:
   leaders:
     name: Leaders
     output: true
-    permalink: /leaders/:name/
+    permalink: /leader-list/:name/
   nominations:
     name: Nominations
     output: true
@@ -64,6 +64,12 @@ defaults:
       type: "customers"
     values:
       layout: "customer"
+defaults:
+  - scope:
+      path: ""
+      type: "leaders"
+    values:
+      layout: "leader"
   -
     scope:
       path: ""
