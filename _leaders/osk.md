@@ -86,7 +86,8 @@ personprojects:
 summary: >
   Brandon ​gets​ sites online and updatable by clients faster than ​before​. He
   doesn’t ​set up​ new servers and his clients are much happier.
-calltitle: Ольга участвует в 
-callbutton: 
+calltitle: Ольга участвует в проектах в качестве независимого эксперта
+callsubtitle: Рассматриваются средние и небольшие
+callbutton: Пригласить в свой проект
 published: true
 ---
