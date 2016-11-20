@@ -7,15 +7,13 @@ header: Case Studies
 header_subtext: Learn how great companies use CloudCannon
 ---
 
-<div class="blog-posts">
-	{% assign leaders = site.leaders | sort: 'sort_key' %}
+{% assign leaders = site.leaders | sort: 'sort_key' %}
 	{% for leader in leaders %}
 		<a class="{{ leader.profile.secondname | slugify }}" href="{{ leader.url }}">
 				<img width="250" src="{{ leader.profile.path }}" alt="{{ leader.profile.secondname }}" />
 		<strong>{{ leader.profile.secondname }}</strong>
 		</a>
-	{% endfor %}
-</div>
+{% endfor %}
 
 <section class="bright-section centered">
 	<div class="container">
