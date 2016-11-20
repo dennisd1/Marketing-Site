@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /case-studies/
+permalink: /leader-list/
 title: Case Studies
 description: Learn how great companies use CloudCannon, the source control backed, Jekyll CMS for developers working with non-developers.
 header: Case Studies
@@ -8,15 +8,11 @@ header_subtext: Learn how great companies use CloudCannon
 ---
 
 <div class="blog-posts">
-	{% assign customers = site.customers | sort: 'sort_key' %}
-	{% for customer in customers %}
-		<a class="{{ customer.name | slugify }}" href="{{ customer.url }}">
-			{% if customer.logo.width %}
-				<img width="{{ customer.logo.width }}" src="{{ customer.logo.path }}" alt="{{ customer.name }}" />
-			{% else %}
-				<img width="250" src="{{ customer.logo.path }}" alt="{{ customer.name }}" />
-			{% endif %}
-			<strong>{{ customer.tagline }}</strong>
+	{% assign leaders = site.leaders | sort: 'sort_key' %}
+	{% for leader in leaders %}
+		<a class="{{ leader.profile.secondname | slugify }}" href="{{ leader.url }}">
+				<img width="250" src="{{ leader.profile.path }}" alt="{{ leader.profile.secondname }}" />
+		<strong>{{ leader.profile.secondname }}</strong>
 		</a>
 	{% endfor %}
 </div>
