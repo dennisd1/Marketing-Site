@@ -43,7 +43,7 @@ collections:
   leaders:
     name: Leaders
     output: true
-    permalink: /leader-list/:name/
+    permalink: /leaders/:name/
   nominations:
     name: Nominations
     output: true
