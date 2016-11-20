@@ -10,7 +10,10 @@ profile:
   headtitle: Независимый директор
   experience1: Более 10 лет работы независимым директором
 heroprofile: 
-  candidate:  Директор года
+  hero: true
+  herotitle:  Директор года 2016
+  herosubtitle: Номинант
+  heropath: path: /a/tregubenkohero.jpg
 name: ОСК
 title: 'Номинант 2016:ОСК'
 nominationslide:
