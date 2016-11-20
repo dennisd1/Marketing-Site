@@ -40,6 +40,10 @@ collections:
     name: Experts
     output: true
     permalink: /experts/:name/
+  leaders:
+    name: Leaders
+    output: true
+    permalink: /leaders/:name/
   nominations:
     name: Nominations
     output: true
