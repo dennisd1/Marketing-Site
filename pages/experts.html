@@ -8,6 +8,10 @@ permalink: /experts/
 published: true
 ---
 
+{% assign x = 'Часть1' %}
+{% assign y = 'Часть2' %}
+{% assign z = x | append: ' - ' | append: y %}
+{{ z }}
 <section>
 	<div class="container">
 		<div class="gallery">
