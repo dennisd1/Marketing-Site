@@ -45,7 +45,7 @@ overview:
     alt: Northeast of the well
   - image_path: /img/customers/brandon/5.jpg
     alt: Norm
-features:
+personprojects:
   - name: Dropbox Syncing
     description: >-
       Brandon develops sites in Jekyll on his computer. The files sync to
