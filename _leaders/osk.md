@@ -10,6 +10,7 @@ profile:
   headtitle: Независимый директор
   experience1: Более 10 лет работы независимым директором
 heroprofile:
+  hero: true
   herotitle: Директор года
   heroslide: /a/tregubenko.jpg
 name: ОСК
