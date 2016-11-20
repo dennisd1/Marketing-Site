@@ -13,6 +13,9 @@ heroprofile:
   hero: true
   herotitle: Директор года
   heroslide: /a/tregubenko.jpg
+juryprofile:
+  currentjury: true
+  jurycategory: Эффективная ревизионная деятельность
 name: ОСК
 title: 'Номинант 2016:ОСК'
 nominationslide:
