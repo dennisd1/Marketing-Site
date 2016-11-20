@@ -14,14 +14,43 @@ heroprofile:
   herotitle: Лауреат Национальной премии
   heroslide: /a/tregubenko.jpg
   heroorganization: Ревизионная комиссия АО Семашко
+  herochallenge:
+    challenge: >
+    ОСК досталось трудное наследство is a freelance web designer who creates
+    elegant, hand-crafted websites for his clients.
+
+
+    He was using Wordpress to build client sites. Wordpress could do everything
+    Brandon needed, but he found there was so much overhead in setting it up and
+    maintaining servers. It took him away from what he loved doing.
+
+
+    Brandon wanted a platform his clients loved and would reduce the amount of
+    coding he was doing.
+  solution: >
+    Brandon found CloudCannon and thought "Oh my goodness, this is the solution
+    I’ve been dreaming about". He now spends less time coding, gets sites live
+    faster and no longer has to manage servers.
+
+
+    His workflow is more streamlined too. He develops sites on his local computer
+    and syncs to CloudCannon using Dropbox. If a client site needs tweaking
+    urgently, he can login to CloudCannon on any computer, anywhere in the world
+    and quickly make updates using the online code editor.
+
+
+    Brandon's clients gave CloudCannon the thumbs up. They found updating in
+    CloudCannon easier and could update sections of the site they couldn't before.
+  testimonial:
+    text: 'Это был сложнейший случай, но мы справились.'
+    image_path: /img/customers/brandon/brandon.jpg
+    name: Иван Иванов
+    work_title: Член ревизионной комиссии
 juryprofile:
   currentjury: true
   jurycategory: Эффективная ревизионная деятельность
 name: ОСК
 title: 'Номинант 2016:ОСК'
-nominationslide:
-  path: /a/16.png
-  width: 300px
 site: 'http://brandonsetter.com/'
 site_name: ОСК
 tagline: Номинант 2016 г
