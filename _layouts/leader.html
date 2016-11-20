@@ -70,8 +70,8 @@ layout: default
 			
 			<div class="image">
 				{% assign imgfile = "/a/" | append: ename | append: postfix | append: ".jpg" %}
-				{{ imgfile }}
-				<img class="screenshot" src="{{ project.image_path }}" width="550" alt="{{ project.name }}" />
+				{{ imgfile }} <br>
+				<img class="screenshot" src="{{ project.image_path }}" width="550" alt="{{ project.name }}" /> <br>
 				{% increment postfix %}
 				{{ postfix }}
 			</div>
