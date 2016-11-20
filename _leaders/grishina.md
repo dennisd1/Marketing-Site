@@ -1,11 +1,11 @@
 ---
 profileid: 2100000000
-sort_key: 5
+sort_key: 1
 profiletype:  person
 profile:
   path: /a/grishina.jpg
   firstname: Ольга
-  secondname: Трегубенко
+  secondname: Гришина
   lastname: Викторовна
   headtitle: Независимый директор
   experience1: Более 10 лет работы независимым директором
