@@ -52,19 +52,19 @@ layout: default
 
 <section style="text-align: center; padding-bottom: 0;">
 	<div class="container">
-		<h2>CloudCannon Features Used</h2>
+		<h2>Реализованные проекты</h2>
 	</div>
 </section>
 
-{% for feature in page.features %}
+{% for project in page.projects %}
 	<section class="{% cycle '', 'alternate' %}">
 		<div class="container">
 			<div class="text">
-				<h3>{{ feature.name }}</h3>
-				{{ feature.description | markdownify }}
+				<h3>{{ project.name }}</h3>
+				{{ project.description | markdownify }}
 			</div>
 			<div class="image">
-				<img class="screenshot" src="{{ feature.image_path }}" width="550" alt="{{ feature.name }}" />
+				<img class="screenshot" src="{{ project.image_path }}" width="550" alt="{{ project.name }}" />
 			</div>
 		</div>
 	</section>
