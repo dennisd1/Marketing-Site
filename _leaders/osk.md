@@ -11,6 +11,7 @@ profile:
   experience1: Более 10 лет работы независимым директором
 heroprofile:
   herotitle: Директор года
+  heroslide: /a/tregubenko.jpg
 name: ОСК
 title: 'Номинант 2016:ОСК'
 nominationslide:
