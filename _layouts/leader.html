@@ -18,7 +18,7 @@ layout: default
 	<div class="container text-container">
 		{% assign imgfile = ename | append: "01" | append: ".jpg" %}
 		{{ imgfile }}
-		<img src="{{ page.profile.path }}" alt="{{ page.secondname }}" />
+		<img src="{{ imgfile }}" alt="{{ page.secondname }}" />
 		
 	</div>
 </section>
