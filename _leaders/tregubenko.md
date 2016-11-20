@@ -4,6 +4,7 @@ sort_key: 1
 profiletype:  person
 profile:
   path: /a/tregubenko.jpg
+  ename: tregubenko
   firstname: Ольга
   secondname: Трегубенко
   lastname: Викторовна
