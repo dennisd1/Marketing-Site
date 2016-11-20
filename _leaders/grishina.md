@@ -4,6 +4,7 @@ sort_key: 2
 profiletype:  person
 profile:
   path: /a/grishina.jpg
+  ename: grishina
   firstname: Ольга
   secondname: Гришина
   lastname: Викторовна
