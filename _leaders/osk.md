@@ -9,6 +9,8 @@ profile:
   lastname: Викторовна
   headtitle: Независимый директор
   experience1: Более 10 лет работы независимым директором
+heroprofile:
+  herotitle: Директор года
 name: ОСК
 title: 'Номинант 2016:ОСК'
 nominationslide:
