@@ -45,17 +45,20 @@ overview:
     alt: Northeast of the well
   - image_path: /img/customers/brandon/5.jpg
     alt: Norm
-projects:
-  features:
-    - name: Dropbox Syncing
-      description: >-
-        Brandon develops sites in Jekyll on his computer. The files sync to
-        CloudCannon automatically through Dropbox.
-        image_path: /img/customers/brandon/file_browser.png
-    - name: Editable Regions
-      description: >-
-        Clients update content themselves. They simply click on text to start
-        writing content.
+features:
+  - name: Dropbox Syncing
+    description: >-
+      Brandon develops sites in Jekyll on his computer. The files sync to
+      CloudCannon automatically through Dropbox.
+
+
+      When Brandon's clients update content in CloudCannon, the changes push
+      back to Dropbox. 
+    image_path: /img/customers/brandon/file_browser.png
+  - name: Editable Regions
+    description: >-
+      Clients update content themselves. They simply click on text to start
+      writing content.
 
 
       Brandon defines the Editable Regions by adding `class="editable"` to
