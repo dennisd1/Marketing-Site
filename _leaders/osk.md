@@ -17,6 +17,8 @@ heroprofile:
   challenge: >
       ОСК досталось трудное наследство is a freelance web designer who creates
       elegant, hand-crafted websites for his clients.
+  solution: >
+      Но они нашли решение.
   testimonial:
     text: 'Это был сложнейший случай, но мы справились.'
     image_path: /img/customers/brandon/brandon.jpg
