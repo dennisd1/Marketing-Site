@@ -3,7 +3,7 @@ profileid: 2100000000
 sort_key: 5
 profiletype:  person
 profile:
-  path: /a/tregubenko.jpg
+  path: /a/grishina.jpg
   firstname: Ольга
   secondname: Трегубенко
   lastname: Викторовна
