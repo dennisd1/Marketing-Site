@@ -11,8 +11,9 @@ profile:
   experience1: Более 10 лет работы независимым директором
 heroprofile:
   hero: true
-  herotitle: Директор года
+  herotitle: Лауреат Национальной премии
   heroslide: /a/tregubenko.jpg
+  heroorganization: Ревизионная комиссия АО Семашко
 juryprofile:
   currentjury: true
   jurycategory: Эффективная ревизионная деятельность
