@@ -1,7 +1,16 @@
 ---
 profileid: 2100000000
 sort_key: 5
-category: Директор года
+profiletype:  person
+profile:
+  path: /a/tregubenko.jpg
+  firstname: Ольга
+  secondname: Трегубенко
+  lastname: Викторовна
+  headtitle: Независимый директор
+  experience1: Более 10 лет работы независимым директором
+heroprofile: 
+  candidate:  Директор года
 name: ОСК
 title: 'Номинант 2016:ОСК'
 nominationslide:
@@ -11,13 +20,7 @@ site: 'http://brandonsetter.com/'
 site_name: ОСК
 tagline: Номинант 2016 г
 categoryline: "Арбитражный управляющий года"
-profile:
-  path: /a/tregubenko.jpg
-  firstname: Ольга
-  secondname: Трегубенко
-  lastname: Викторовна
-  headtitle: Независимый директор
-  experience1: Более 10 лет работы независимым директором
+
 challenge: >
   ОСК досталось трудное наследство is a freelance web designer who creates
   elegant, hand-crafted websites for his clients.
