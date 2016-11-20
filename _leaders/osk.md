@@ -34,39 +34,9 @@ site_name: ОСК
 tagline: Номинант 2016 г
 categoryline: "Арбитражный управляющий года"
 
-challenge: >
-  ОСК досталось трудное наследство is a freelance web designer who creates
-  elegant, hand-crafted websites for his clients.
-
-
-  He was using Wordpress to build client sites. Wordpress could do everything
-  Brandon needed, but he found there was so much overhead in setting it up and
-  maintaining servers. It took him away from what he loved doing.
-
-
-  Brandon wanted a platform his clients loved and would reduce the amount of
-  coding he was doing.
-solution: >
-  Brandon found CloudCannon and thought "Oh my goodness, this is the solution
-  I’ve been dreaming about". He now spends less time coding, gets sites live
-  faster and no longer has to manage servers.
-
-
-  His workflow is more streamlined too. He develops sites on his local computer
-  and syncs to CloudCannon using Dropbox. If a client site needs tweaking
-  urgently, he can login to CloudCannon on any computer, anywhere in the world
-  and quickly make updates using the online code editor.
-
-
-  Brandon's clients gave CloudCannon the thumbs up. They found updating in
-  CloudCannon easier and could update sections of the site they couldn't before.
-testimonial:
-  text: 'Это был сложнейший случай, но мы справились.'
-  image_path: /img/customers/brandon/brandon.jpg
-  name: Иван Иванов
-  work_title: Член ревизионной комиссии
 overview:
-  - image_path: /img/customers/brandon/1.jpg
+  overviewshow: true
+  - image_path: /a/tregubenko1.jpg
     alt: Living and Learning
   - image_path: /img/customers/brandon/2.jpg
     alt: Northeast of the well
