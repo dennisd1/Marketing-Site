@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Leaders
+title: leaders
 description: Recommended developers to get your website live on CloudCannon
 header: Leaders
 header_subtext: Recommended developers to get your website live on CloudCannon
@@ -11,11 +11,11 @@ published: true
 <section>
 	<div class="container">
 		<div class="gallery">
-			{% for expert in site.experts %}
+			{% for leader in site.leaders %}
 				<div class="gallery-item">
 					<div>
-						<a href="{{ expert.link }}" target="_blank">
-							<img src="{{ expert.image_path}}" alt="{{ expert.name }}" class="screenshot" srcset="{{ expert.image_path }} 620w, {{ expert.image_path | replace: ".png", "@2x.png" | replace: ".jpeg", "@2x.jpeg" }} 1240w">
+						<a href="{{ leader.link }}" target="_blank">
+							<img src="{{ leader.profile.path}}" alt="{{ leader.name }}" class="screenshot" srcset="{{ leader.image_path }} 620w, {{ expert.image_path | replace: ".png", "@2x.png" | replace: ".jpeg", "@2x.jpeg" }} 1240w">
                      </div>
                           <h3><a href="{{ expert.link }}" target="_blank">{{ expert.name }}</a></h3>
 					<p class="location"><i class="material-icons">place</i><a target="_blank" href="{{ expert.link }}">{{ expert.location }}</a></p>
