@@ -19,9 +19,22 @@ layout: default
 <link type="text/css" rel="stylesheet" href="/css/lightslider.css" />
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
-<link type="text/css" rel="stylesheet" href="/css/profilecard.css" />
 
 <!--Profile -->
+<div class="blog-post">
+		<div class="post-author-small">
+				<img src="{{ author[0].image_path }}" alt="A stunning photo of {{ author[0].name }}" width="200" height="200">
+							
+						<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+						<p class="post-details">{{ post.category }} 
+					</div>
+
+					<p>
+						Тестовый текст
+					</p>
+
+					<a href="{{ post.url }}" class="btn small-btn">Read more  &rarr;</a>
+</div>
 <section id="profile header">
 	<div class="profilecard">
 		{% assign profileimg = "/a/" | append: ename | append: ".jpg" %}
