@@ -3,14 +3,14 @@
   links:
   - name: Home
     link: /
-  - name: Цены
-    link: /pricing/
-  - name: Blog
-    link: /blog/
-  - name: Gallery
-    link: /gallery/
-  - name: Experts
-    link: /experts/
+  - name: О премии
+    link: /about/
+  - name: Номинации
+    link: /categories/
+  - name: Жюри
+    link: /jury/
+  - name: Лауреаты
+    link: /winners/
 - title: Дополнительно
   links:
   - name: About
