@@ -50,14 +50,16 @@ layout: default
 <section>
 	{{page.profile.slides}}
 	<div class="container">
-		<ul class="photo-gallery">
+		<!--<ul class="photo-gallery">-->
 			{% for i in (1..page.profile.slides) %}
+				{% assign imgfile = "/a/" | append: ename | append: "1" | append: i | append: ".jpg" %}
+				{{ imgfile }}
   				<!--<li data-thumb="{{ slide.image_path }}" data-src="{{ slide.image_path }}">
 				<img class="screenshot" alt="{{ slide.alt }}" src="{{ slide.image_path }}" />
 				</li>-->
 			{{i}}
 			{% endfor %}
-		</ul>
+		<!--</ul>-->
 	</div>
 </section>
 
