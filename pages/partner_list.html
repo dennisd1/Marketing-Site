@@ -9,9 +9,11 @@ header_subtext: Learn how great companies use CloudCannon
 {% assign leaders = site.leaders | sort: 'sort_key' %}
 	{% for leader in leaders %}
 		{% if leader.heroprofile.heropartner == true %}
+		{% assign ename = page.profile.ename %}
+		{% assign heroimg = "/a/" | append: ename | append: "01" | append: ".jpg" %}
 		<section class="alternate">
 			<a class="{{ leader.profile.secondname | slugify }}" href="{{ leader.url }}">
-				<img width="250" src="{{ leader.profile.path }}" alt="{{ leader.profile.secondname }}" />
+				<img src="{{ heroimg }}"  />
 				<strong>{{ leader.profile.secondname }}</strong>
 			</a>
 		</section>
