@@ -1,14 +1,14 @@
 [
 	{
-		"name": "Basic",
+		"name": "Базовый",
 		"price": "$25"
 	},
 	{
-		"name": "Agency",
+		"name": "Партнер номинации",
 		"price": "$75"
 	},
 	{
-		"name": "Enterprise",
+		"name": "Стратег",
 		"price": "$125"
 	}
 ]
