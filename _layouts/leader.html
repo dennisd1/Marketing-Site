@@ -9,7 +9,7 @@ layout: default
 		{% assign ename = page.profile.ename %}
 		{% assign heroimg = "/a/" | append: ename | append: "01" | append: ".jpg" %}
 		<img src="{{ heroimg }}"  />
-		{% if page.heroorganization %}
+		{% if page.heroprofile.heroorganization %}
 		<h3>{{ page.heroprofile.heroorganization }}</h3>
 		{% endif %}
 		<h3>{{ page.profile.secondname }} {{ page.profile.firstname }} {{ page.profile.lastname }}</h3>
