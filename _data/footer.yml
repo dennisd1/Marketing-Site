@@ -11,7 +11,7 @@
     link: /gallery/
   - name: Experts
     link: /experts/
-- title: Resources
+- title: Дополнительно
   links:
   - name: About
     link: /about/
@@ -21,7 +21,7 @@
     link: /press/
   - name: Contact
     link: /contact/
-- title: Social
+- title: Ресурсы
   links:
   - name: Facebook
     link: https://www.facebook.com/gosprize
@@ -33,15 +33,10 @@
     new_window: true
 - title: Сообщество
   links:
-  - name: Sign Up
-    link: https://app.cloudcannon.com/users/sign_up
+  - name: Войти
+    link: http://corp.vot.expert
     class: sign-up
-  - name: Log in
-    link: https://app.cloudcannon.com/
-    class: sign-up
-  - name: Documentation
-    link: https://docs.cloudcannon.com/
+  - name: Email
+    link: mailto:info@gosprize.ru
     new_window: true
-  - name: Status
-    link: https://status.cloudcannon.com/
-    new_window: true
+
