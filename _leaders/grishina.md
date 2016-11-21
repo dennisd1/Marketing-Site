@@ -13,14 +13,13 @@ profile:
   projects: 3
 heroprofile:
   hero: true
-  herotitle: Лауреат Национальной премии
-  heroslide: /a/tregubenko.jpg
-  heroorganization: Ревизионная комиссия АО Семашко
+  heroaward: Лауреат Национальной премии 2016 г.
+  herocategory: Юридическая победа года
+  heroorganiztion: Юридический департамент ПАО РусГидро 
   challenge: >
-      ОСК досталось трудное наследство is a freelance web designer who creates
-      elegant, hand-crafted websites for his clients.
+      Длительный судебный спор.
   solution: >
-      Но они нашли решение.
+      Удалось добиться победы, которая принесла сотни миллионов рублей в год.
 testimonial:
   text: 'Это был сложнейший случай, но мы справились.'
   image_path: /img/customers/brandon/brandon.jpg
