@@ -48,7 +48,6 @@ layout: default
 	</blockquote>
 {% endif %}
 <section>
-	{{page.profile.slides}}
 	<div class="container">
 		<ul class="photo-gallery">
 			{% for i in (1..page.profile.slides) %}
@@ -57,7 +56,6 @@ layout: default
   				<li data-thumb="{{ imgfile }}" data-src="{{ imgfile }}">
 				<img class="screenshot" alt="{{ imgfile }}" src="{{ imgfile }}" />
 				</li>
-			{{i}}
 			{% endfor %}
 		</ul>
 	</div>
