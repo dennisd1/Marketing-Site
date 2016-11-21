@@ -1,6 +1,10 @@
-- link: /pricing/
-  name: Цена
-- link: /blog/
-  name: Блог
-- link: /gallery/
-  name: Галерея
+- name: Home
+  link: /
+- name: О премии
+  link: /about/
+- name: Номинации
+  link: /categories/
+- name: Жюри
+  link: /jury/
+- name: Лауреаты
+  link: /winners/

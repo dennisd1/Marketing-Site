@@ -3,15 +3,15 @@
   links:
   - name: Home
     link: /
-  - name: Цены
-    link: /pricing/
-  - name: Blog
-    link: /blog/
-  - name: Gallery
-    link: /gallery/
-  - name: Experts
-    link: /experts/
-- title: Resources
+  - name: О премии
+    link: /about/
+  - name: Номинации
+    link: /categories/
+  - name: Жюри
+    link: /jury/
+  - name: Лауреаты
+    link: /winners/
+- title: Дополнительно
   links:
   - name: About
     link: /about/
@@ -21,35 +21,22 @@
     link: /press/
   - name: Contact
     link: /contact/
-- title: Social
+- title: Ресурсы
   links:
-  - name: Twitter
-    link: https://twitter.com/CloudCannonApp
-    social_icon: twitter
-    new_window: true
   - name: Facebook
-    link: https://www.facebook.com/CloudCannon
+    link: https://www.facebook.com/gosprize
     social_icon: facebook
-    new_window: true
-  - name: Google+
-    link: https://plus.google.com/+CloudCannon
-    social_icon: google-plus
     new_window: true
   - name: YouTube
     link: https://www.youtube.com/c/CloudCannon
     social_icon: youtube
     new_window: true
-- title: App
+- title: Сообщество
   links:
-  - name: Sign Up
-    link: https://app.cloudcannon.com/users/sign_up
+  - name: Войти
+    link: http://corp.vot.expert
     class: sign-up
-  - name: Log in
-    link: https://app.cloudcannon.com/
-    class: sign-up
-  - name: Documentation
-    link: https://docs.cloudcannon.com/
+  - name: Email
+    link: mailto:info@gosprize.ru
     new_window: true
-  - name: Status
-    link: https://status.cloudcannon.com/
-    new_window: true
+
