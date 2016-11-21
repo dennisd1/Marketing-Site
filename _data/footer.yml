@@ -1,8 +1,6 @@
 
 - title: Премия
   links:
-  - name: Home
-    link: /
   - name: О премии
     link: /about/
   - name: Номинации
