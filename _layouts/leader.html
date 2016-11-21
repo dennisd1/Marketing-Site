@@ -20,21 +20,8 @@ layout: default
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
 <!--Profile -->
-<section class="alternate">
-		<div class="container">
-			<div class="text">
-				<h3>{{ page.profile.secondname }} {{ page.profile.firstname }} {{ page.profile.lastname }}</h3>
-				{{ page.profile.secondname | markdownify }}
-			</div>
-			
-			<div class="image">
-				{% assign profileimg = "/a/" | append: ename | append: ".jpg" %}
-				<img src="{{ profileimg }}" alt="{{ page.secondname }}" />
-			</div>
-		</div>
-</section>
 <section id="profile header">
-	<div class="container text-container">
+	<div class="cardprofile">
 		{% assign profileimg = "/a/" | append: ename | append: ".jpg" %}
 		<img src="{{ profileimg }}" alt="{{ page.secondname }}" />
 		<h3>{{ page.tagline }}</h3>
