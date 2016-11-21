@@ -5,12 +5,13 @@ profiletype:  person
 profile:
   path: /a/grishina.jpg
   ename: grishina
-  firstname: Ольга
+  firstname: Полина
   secondname: Гришина
-  lastname: Викторовна
+  lastname: Юрьевна
   headtitle: Независимый директор
   experience1: Более 10 лет работы независимым директором
   slides: 5
+  projects: 3
 heroprofile:
   hero: true
   herotitle: Лауреат Национальной премии
