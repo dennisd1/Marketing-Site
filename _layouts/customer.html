@@ -47,8 +47,8 @@ layout: default
 <section>
 	<div class="container">
 		<ul class="photo-gallery">
-			{% for slide in include.slides %}
-				<li data-thumb="{{ slide.image_path }}" data-src="{{ slide.image_path }}">
+			{% for i in (1..profile.slides) %}
+  				<li data-thumb="{{ slide.image_path }}" data-src="{{ slide.image_path }}">
 				<img class="screenshot" alt="{{ slide.alt }}" src="{{ slide.image_path }}" />
 				</li>
 			{% endfor %}
