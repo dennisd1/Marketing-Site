@@ -1,19 +1,19 @@
 ---
 profileid: 2100000000
-sort_key: 2
-profiletype:  person
+sort_key: 6
+profiletype:  organization
 profile:
-  ename: grishina
-  firstname: Полина
-  secondname: Гришина
-  lastname: Юрьевна
+  ename: aur
+  firstname: Ассоциация юристов России
+  secondname: 
+  lastname: 
   headtitle: Независимый директор
   experience1: Более 10 лет работы независимым директором
   slides: 5
   projects: 3
 heroprofile:
   hero: true
-  heroaward: Лауреат Национальной премии 2016 г.
+  heroaward: Партнер Национальной премии 2016 г.
   herocategory: Юридическая победа года
   heroorganization: Юридический департамент ПАО РусГидро 
   challenge: >
