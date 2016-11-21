@@ -3,7 +3,6 @@ profileid: 2100000000
 sort_key: 2
 profiletype:  person
 profile:
-  path: /a/grishina.jpg
   ename: grishina
   firstname: Полина
   secondname: Гришина
@@ -22,11 +21,11 @@ heroprofile:
       elegant, hand-crafted websites for his clients.
   solution: >
       Но они нашли решение.
-  testimonial:
-    text: 'Это был сложнейший случай, но мы справились.'
-    image_path: /img/customers/brandon/brandon.jpg
-    name: Иван Иванов
-    work_title: Член ревизионной комиссии
+testimonial:
+  text: 'Это был сложнейший случай, но мы справились.'
+  image_path: /img/customers/brandon/brandon.jpg
+  name: Иван Иванов
+  work_title: Член ревизионной комиссии
 juryprofile:
   currentjury: true
   jurycategory: Эффективная ревизионная деятельность
