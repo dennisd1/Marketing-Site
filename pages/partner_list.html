@@ -6,18 +6,17 @@ description: Learn how great companies use CloudCannon, the source control backe
 header: Case Studies
 header_subtext: Learn how great companies use CloudCannon
 ---
-{% if heroprofile.heropartner == true %}
 {% assign leaders = site.leaders | sort: 'sort_key' %}
 	{% for leader in leaders %}
+		{% if leader.heroprofile.heropartner == true %}
 		<section class="alternate">
 			<a class="{{ leader.profile.secondname | slugify }}" href="{{ leader.url }}">
 				<img width="250" src="{{ leader.profile.path }}" alt="{{ leader.profile.secondname }}" />
 				<strong>{{ leader.profile.secondname }}</strong>
 			</a>
 		</section>
+		{% endif %}
 	{% endfor %}
-
-{% endif %}
 
 <section class="bright-section centered">
 	<div class="container">
