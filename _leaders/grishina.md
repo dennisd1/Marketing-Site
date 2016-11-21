@@ -15,7 +15,7 @@ heroprofile:
   hero: true
   heroaward: Лауреат Национальной премии 2016 г.
   herocategory: Юридическая победа года
-  heroorganiztion: Юридический департамент ПАО РусГидро 
+  heroorganization: Юридический департамент ПАО РусГидро 
   challenge: >
       Длительный судебный спор.
   solution: >
