@@ -9,9 +9,10 @@ layout: default
 		{% assign ename = page.profile.ename %}
 		{% assign heroimg = "/a/" | append: ename | append: "01" | append: ".jpg" %}
 		<img src="{{ heroimg }}"  />
-		<h3>{{ page.tagline }}</h3>
+		{% if page.heroorganization %}
+		<h3>{{ page.heroprofile.heroorganization }}</h3>
+		{% endif %}
 		<h3>{{ page.profile.secondname }} {{ page.profile.firstname }} {{ page.profile.lastname }}</h3>
-		<p><a href="{{ page.site }}" target="_blank">View {{ page.site_name }} &rarr;</a></p>
 	</div>
 </header>
 <!--end of Него profile -->
