@@ -19,9 +19,11 @@ layout: default
 <link type="text/css" rel="stylesheet" href="/css/lightslider.css" />
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
+<link type="text/css" rel="stylesheet" href="/css/profilecard.css" />
+
 <!--Profile -->
 <section id="profile header">
-	<div class="cardprofile">
+	<div class="profilecard">
 		{% assign profileimg = "/a/" | append: ename | append: ".jpg" %}
 		<img src="{{ profileimg }}" alt="{{ page.secondname }}" />
 		<h3>{{ page.tagline }}</h3>
