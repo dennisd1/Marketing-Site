@@ -6,7 +6,7 @@ profile:
   path: /a/tregubenko.jpg
   ename: tregubenko
   firstname: Ольга
-  secondname: Трегубенко
+  secondname: Иванова
   lastname: Викторовна
   headtitle: Независимый директор
   experience1: Более 10 лет работы независимым директором
