@@ -3,6 +3,7 @@ layout: default
 ---
 
 {% if page.heroprofile %}
+<!--Него profile -->
 <header class="{{ page.name | slugify }}">
 	<div class="container">
 		{% assign ename = page.profile.ename %}
@@ -13,9 +14,12 @@ layout: default
 		<p><a href="{{ page.site }}" target="_blank">View {{ page.site_name }} &rarr;</a></p>
 	</div>
 </header>
+<!--end of Него profile -->
 
 <link type="text/css" rel="stylesheet" href="/css/lightslider.css" />
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+<!--Profile -->
 <section id="profile header">
 	<div class="container text-container">
 		{% assign profileimg = "/a/" | append: ename | append: ".jpg" %}
@@ -23,6 +27,7 @@ layout: default
 		
 	</div>
 </section>
+<!--end of profile -->
 <section>
 	<div class="container text-container">
 		<h2>Описание</h2>
