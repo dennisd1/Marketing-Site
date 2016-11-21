@@ -5,8 +5,9 @@ layout: default
 {% if page.heroprofile %}
 <header class="{{ page.name | slugify }}">
 	<div class="container">
-		{% assign heroimg = "/a/" | append: ename | append: "01" | append: ".jpg" %}
-		<img src="{{ heroimg }}" alt="{{ page.secondname }}" />
+		{% assign ename = page.profile.ename %}
+		{{ ename }}
+		<img src="/a/{{ename}}.jpg"  />
 		<h3>{{ page.tagline }}</h3>
 		<h3>{{ page.profile.secondname }} {{ page.profile.firstname }} {{ page.profile.lastname }}</h3>
 		<p><a href="{{ page.site }}" target="_blank">View {{ page.site_name }} &rarr;</a></p>
@@ -17,8 +18,9 @@ layout: default
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <section id="profile header">
 	<div class="container text-container">
-		{% assign profileimg = "/a/" | append: ename | append: ".jpg" %}
-		<img src="{{ profileimg }}" alt="{{ page.secondname }}" />
+		{% assign imgfile = "/a/" | append: ename | append: "01" | append: ".jpg" %}
+		{{ imgfile }}
+		<img src="{{ imgfile }}" alt="{{ page.secondname }}" />
 		
 	</div>
 </section>
