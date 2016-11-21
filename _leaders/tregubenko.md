@@ -10,6 +10,7 @@ profile:
   lastname: Викторовна
   headtitle: Независимый директор
   experience1: Более 10 лет работы независимым директором
+  slides: 3
 heroprofile:
   hero: true
   herotitle: Лауреат Национальной премии
