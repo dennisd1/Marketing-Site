@@ -21,9 +21,10 @@ layout: default
 
 
 <!--Profile -->
-<div class="blog-post">
+<section>
+	<div class="blog-post">
 		<div class="post-author-small">
-				<img src="{{ author[0].image_path }}" alt="A stunning photo of {{ author[0].name }}" width="200" height="200">
+				<img src="/a/grishina.jpg" alt="A stunning photo of {{ author[0].name }}" width="200" height="200">
 							
 						<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 						<p class="post-details">{{ post.category }} 
@@ -34,7 +35,8 @@ layout: default
 					</p>
 
 					<a href="{{ post.url }}" class="btn small-btn">Read more  &rarr;</a>
-</div>
+	</div>
+<section>
 <section id="profile header">
 	<div class="profilecard">
 		{% assign profileimg = "/a/" | append: ename | append: ".jpg" %}
