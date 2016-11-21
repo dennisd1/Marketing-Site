@@ -6,7 +6,7 @@ description: Learn how great companies use CloudCannon, the source control backe
 header: Case Studies
 header_subtext: Learn how great companies use CloudCannon
 ---
-
+{% if heroprofile.heropartner == true %}
 {% assign leaders = site.leaders | sort: 'sort_key' %}
 	{% for leader in leaders %}
 		<section class="alternate">
@@ -15,7 +15,9 @@ header_subtext: Learn how great companies use CloudCannon
 				<strong>{{ leader.profile.secondname }}</strong>
 			</a>
 		</section>
-{% endfor %}
+	{% endfor %}
+
+{% endif %}
 
 <section class="bright-section centered">
 	<div class="container">
