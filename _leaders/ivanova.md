@@ -11,21 +11,6 @@ profile:
   headtitle: Независимый директор
   experience1: Более 10 лет работы независимым директором
   slides: 3
-heroprofile:
-  hero: true
-  herotitle: Лауреат Национальной премии
-  heroslide: /a/tregubenko.jpg
-  heroorganization: Ревизионная комиссия АО Семашко
-  challenge: >
-      ОСК досталось трудное наследство is a freelance web designer who creates
-      elegant, hand-crafted websites for his clients.
-  solution: >
-      Но они нашли решение.
-  testimonial:
-    text: 'Это был сложнейший случай, но мы справились.'
-    image_path: /img/customers/brandon/brandon.jpg
-    name: Иван Иванов
-    work_title: Член ревизионной комиссии
 juryprofile:
   currentjury: true
   jurycategory: Эффективная ревизионная деятельность
