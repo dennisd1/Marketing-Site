@@ -47,14 +47,18 @@ layout: default
 			</div>
 	</blockquote>
 {% endif %}
-
-{% if page.profile.slides %}
 <section>
 	<div class="container">
-		{% include customer-slideshow.html name="overview" slides=page.overview %}
+		<ul class="photo-gallery">
+			{% for i in (1..profile.slides) %}
+  				<!--<li data-thumb="{{ slide.image_path }}" data-src="{{ slide.image_path }}">
+				<img class="screenshot" alt="{{ slide.alt }}" src="{{ slide.image_path }}" />
+				</li>-->
+			{{i}}
+			{% endfor %}
+		</ul>
 	</div>
 </section>
-{% endif %}
 
 <section style="text-align: center; padding-bottom: 0;">
 	<div class="container">
