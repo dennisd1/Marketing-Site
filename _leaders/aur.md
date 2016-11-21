@@ -12,7 +12,8 @@ profile:
   slides: 5
   projects: 3
 heroprofile:
-  hero: true
+  hero: 
+  heropartner: true
   heroaward: Партнер Национальной премии 2016 г.
   herocategory: Юридическая победа года
   heroorganization: 
