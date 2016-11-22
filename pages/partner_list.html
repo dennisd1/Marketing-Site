@@ -6,7 +6,7 @@ description: Learn how great companies use CloudCannon, the source control backe
 header: Case Studies
 header_subtext: Learn how great companies use CloudCannon
 ---
-{% assign leaders = site.leaders | sort: 'sort_key' %}
+{% assign leaders = site.leaders | sort: 'sortpartnerkey' %}
 	{% for leader in leaders %}
 		{% if leader.heroprofile.heropartner == true %}
 		{% assign ename = leader.profile.ename %}
@@ -17,7 +17,7 @@ header_subtext: Learn how great companies use CloudCannon
 					<img src="{{ heroimg }}" alt="A stunning photo of {{ author[0].name }}" width="400" height="400">
 						<h3>{{ leader.profile.secondname }} {{ leader.profile.firstname }} {{ leader.profile.lastname }}</h3>
 						<a href="{{ post.url }}" class="btn small-btn">Подробнее  &rarr;</a>	
-						<p class="post-details">{{ leader.profile.title }}</p>
+						<p class="post-details">{{ leader.heroprofile.heroaward }}</p>
 					</div>
 			</div>
 		<section>
