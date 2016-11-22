@@ -1,5 +1,5 @@
 ---
-profileid: 
+profileid: 2100000000
 sort_key: 6
 sortpartnerkey: 1
 profiletype:  organization
@@ -9,8 +9,7 @@ profile:
   secondname: 
   lastname: 
   headtitle: Ассоциация «Профессиональное сообщество директоров «Директориум»
-  headtitle1:
-  summary:>-
+  headtitle1: >-
     Ассоциация «Профессиональное сообщество директоров «Директориум» (далее — Ассоциация) создана в соответствии с Соглашением от 22
     июня 2013 г. между Агентством стратегических инициатив (АСИ) и Росимуществом. Основная цель деятельности — содействие экономическому
     развитию Российской Федерации за счет: создания для профессионалов с активной жизненной позицией возможностей для самореализации,
@@ -92,13 +91,16 @@ projects:
       [optimised](http://docs.cloudcannon.com/hosting/optimisations/) hosting
       for Brandon's sites.
     image_path: /img/customers/brandon/1.jpg
+<<<<<<< HEAD
 footer:
   summary: >-
+=======
+summary: >
+>>>>>>> parent of 1cff033... Update directorium.md
   Brandon ​gets​ sites online and updatable by clients faster than ​before​. He
   doesn’t ​set up​ new servers and his clients are much happier.
-  calltitle: 
-  callsubtitle: 
-  callbutton: Примите участие в работе ассоциации!
-  callbuttonlink: https://www.directorium.pro/
+calltitle: Ольга участвует в проектах в качестве независимого эксперта
+callsubtitle: Рассматриваются средние и небольшие
+callbutton: Пригласить в свой проект
 published: true
 ---
