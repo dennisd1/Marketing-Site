@@ -101,11 +101,11 @@ layout: default
 <section class="alternate">
 	<div class="container text-container">
 		<h2>Summary</h2>
-		{{ page.summary | markdownify }}
+		{{ page.summary | markdownify }} <a href="{{ page.callbuttonlink }}" class="btn small-btn">{{ page.callbutton }}  &rarr;</a>
 	</div>
 </section>
 
-<a href="{{ page.callbuttonlink }}" class="btn small-btn">Подробнее  &rarr;</a>
+
 
 <section class="bright-section centered">
 	<div class="container">
