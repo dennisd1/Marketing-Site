@@ -31,32 +31,11 @@ layout: default
 		<div class="post-author-big">
 			<img src="{{ profileimg }}" alt="A stunning photo of {{ author[0].name }}" width="400" height="400">
 			<h3>{{ page.profile.secondname }} {{ page.profile.firstname }} {{ page.profile.lastname }}</h3>
-			<p class="post-details">{{ page.heroprofile.heroaward }} &emsp; <a href="{{ leader.url }}" class="btn small-btn">Подробнее  &rarr;</a></p>
+			<p class="post-details">{{ page.profile.headtitle }} &emsp; <a href="{{ leader.url }}" class="btn small-btn">Подробнее  &rarr;</a></p>
 		</div>
-	</div>
-</section>
-<section>
-	<div class="blog-post">
-		<div class="post-author-big">
-				<img src="/a/grishina.jpg" alt="A stunning photo of {{ author[0].name }}" width="400" height="400">
-						<h3>{{ page.profile.secondname }} {{ page.profile.firstname }} {{ page.profile.lastname }}</h3>
-						<a href="{{ post.url }}" class="btn small-btn">Подробнее  &rarr;</a>	
-						<p class="post-details">{{ page.profile.title }}</p>
-					</div>
-
-					<p>
-						Тестовый текст
-					</p>
-
-					<a href="{{ post.url }}" class="btn small-btn">Read more  &rarr;</a>
-	</div>
-<section>
-<section id="profile header">
-	<div class="profilecard">
-		{% assign profileimg = "/a/" | append: ename | append: ".jpg" %}
-		<img src="{{ profileimg }}" alt="{{ page.secondname }}" />
-		<h3>{{ page.tagline }}</h3>
-		<h3>{{ page.profile.secondname }} {{ page.profile.firstname }} {{ page.profile.lastname }}</h3>
+		<p>
+			{{ page.profile.headtitle1 }}
+		</p>
 	</div>
 </section>
 <!--end of profile -->
