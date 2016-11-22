@@ -67,10 +67,11 @@ projects:
       CloudCannon provides
       [optimised](http://docs.cloudcannon.com/hosting/optimisations/) hosting
       for Brandon's sites.
-    image_path: /img/customers/brandon/1.jpg
+    image_path: 
 
-calltitle: Ольга участвует в проектах в качестве независимого эксперта
-callsubtitle: Рассматриваются средние и небольшие
+calltitle: 
+calltoaction: Примите участие в работе сообщества Директориум! 
+callsubtitle: 
 callbutton: Принять участие в работе сообщества
 callbuttonlink: https://www.directorium.pro/
 published: true
