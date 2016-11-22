@@ -31,7 +31,7 @@ layout: default
 				<img src="/a/grishina.jpg" alt="A stunning photo of {{ author[0].name }}" width="400" height="400">
 						<h3>{{ page.profile.secondname }} {{ page.profile.firstname }} {{ page.profile.lastname }}</h3>
 						<a href="{{ post.url }}" class="btn small-btn">Подробнее  &rarr;</a>	
-						<p class="post-details">Д{{ page.profile.title }}</p>
+						<p class="post-details">{{ page.profile.title }}</p>
 					</div>
 
 					<p>
@@ -95,7 +95,7 @@ layout: default
 	</div>
 </section>
 
-{% increment postfix %}
+{% assign count = 1 %}
 {% for project in page.projects %}
 	<section class="{% cycle '', 'alternate' %}">
 		<div class="container">
@@ -105,9 +105,9 @@ layout: default
 			</div>
 			
 			<div class="image">
-				{% increment postfix %}
-				{% assign imgfile = "/a/" | append: ename | append: 2 | append: postfix | append: ".jpg" %}
+				{% assign imgfile = "/a/" | append: ename | append: 2 | append: count | append: ".jpg" %}
 				{{ imgfile }} <br>
+				 {% capture count %}{{ count | plus:1 }}{% endcapture %}
 				<img class="screenshot" src="{{ project.image_path }}" width="550" alt="{{ project.name }}" /> <br>
 			</div>
 		</div>
