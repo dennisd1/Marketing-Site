@@ -93,7 +93,7 @@ projects:
       for Brandon's sites.
     image_path: /img/customers/brandon/1.jpg
 footer:
-  summary: >
+  summary: >-
   Brandon ​gets​ sites online and updatable by clients faster than ​before​. He
   doesn’t ​set up​ new servers and his clients are much happier.
   calltitle: 
