@@ -39,15 +39,17 @@ layout: default
 	</div>
 </section>
 <!--end of profile -->
+<!--Profile summary -->
 <section>
 	<div class="container text-container">
 		<h2>Описание</h2>
 		{{ page.challenge | markdownify }}
-
+		<p>{{ page.profile.headtitle1 }}</p>
 		<h2>How CloudCannon helped</h2>
 		{{ page.solution | markdownify }}
 	</div>
 </section>
+<!--end of profile summary-->
 
 {% if page.testimonial %}
 	<blockquote class="testimonial">
