@@ -29,7 +29,7 @@ layout: default
 <section>
 	<div class="blog-post">
 		<div class="post-author-big">
-			<img src="{{ profileimg }}" alt="A stunning photo of {{ author[0].name }}" width="400" height="400">
+			<img src="{{ profileimg }}" alt="A stunning photo of {{ author[0].name }}">
 			<h3>{{ page.profile.secondname }} {{ page.profile.firstname }} {{ page.profile.lastname }}</h3>
 			<p class="post-details">{{ page.profile.headtitle }} &emsp; <a href="{{ leader.url }}" class="btn small-btn">Подробнее  &rarr;</a></p>
 		</div>
@@ -104,6 +104,8 @@ layout: default
 		{{ page.summary | markdownify }}
 	</div>
 </section>
+
+<a href="{{ page.callbuttonlink }}" class="btn small-btn">Подробнее  &rarr;</a>
 
 <section class="bright-section centered">
 	<div class="container">
