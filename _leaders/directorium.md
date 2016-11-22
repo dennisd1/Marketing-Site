@@ -1,6 +1,7 @@
 ---
 profileid: 2100000000
 sort_key: 6
+sortpartnerkey: 1
 profiletype:  organization
 profile:
   ename: directorium
@@ -14,7 +15,7 @@ profile:
 heroprofile:
   hero: 
   heropartner: true
-  heroaward: Партнер Национальной премии 2016 г.
+  heroaward: Партнер Национальной премии 2016 г. в номинации Директор года
   herocategory: Юридическая победа года
   heroorganization: 
   challenge: >
