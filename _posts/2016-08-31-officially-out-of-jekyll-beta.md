@@ -7,7 +7,7 @@ post_image: /img/blog/officially-out-of-jekyll-beta/logos@2x.png
 post_image_type: image/png
 post_image_width: 1600
 post_image_height: 1000
-author: ross
+author: grishina
 extra_google_fonts: "|Material+Icons"
 ---
 
