@@ -33,20 +33,13 @@ layout: default
 			<h3>{{ page.profile.secondname }} {{ page.profile.firstname }} {{ page.profile.lastname }}</h3>
 			<p class="post-details">{{ page.profile.headtitle }} &emsp; <a href="{{ leader.url }}" class="btn small-btn">Подробнее  &rarr;</a></p>
 		</div>
-		<p>
-			{{ page.profile.headtitle1 }}
-		</p>
 	</div>
 </section>
 <!--end of profile -->
 <!--Profile summary -->
 <section>
 	<div class="container text-container">
-		<h2>Описание</h2>
-		{{ page.challenge | markdownify }}
 		<p>{{ page.profile.summary }}</p>
-		<h2>How CloudCannon helped</h2>
-		{{ page.solution | markdownify }}
 	</div>
 </section>
 <!--end of profile summary-->
@@ -114,9 +107,9 @@ layout: default
 
 <section class="bright-section centered">
 	<div class="container">
-		<h2>Join {{ page.name }} and use CloudCannon with your team</h2>
+		<h2>Стань партнером Национальной премии!</h2>
 		<p>
-			<a href="https://app.cloudcannon.com/users/sign_up" class="btn btn-primary btn-large btn-block btn-centered">Sign up now</a>
+			<a href="../bepartner" class="btn btn-primary btn-large btn-block btn-centered">Описание партнерства</a>
 		</p>
 	</div>
 </section>
