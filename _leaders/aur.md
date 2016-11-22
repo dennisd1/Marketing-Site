@@ -1,6 +1,7 @@
 ---
 profileid: 2100000000
 sort_key: 6
+sortpartnerkey: 99
 profiletype:  organization
 profile:
   ename: aur
