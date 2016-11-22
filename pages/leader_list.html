@@ -12,7 +12,7 @@ header_subtext: Learn how great companies use CloudCannon
 		<section class="{% cycle '', 'alternate' %}">
 			<a class="{{ leader.profile.ename | slugify }}" href="{{ leader.url }}">
 				<img width="250" src="{{ leader.profile.path }}" alt="{{ leader.profile.secondname }}" />
-				<strong>{{ leader.profile.secondname }}</strong>
+				<strong>{{ leader.profile.ename }}</strong>
 			</a>
 		</section>
 {% endfor %}
