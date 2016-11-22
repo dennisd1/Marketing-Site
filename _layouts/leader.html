@@ -60,16 +60,16 @@ layout: default
 	</div>
 </section>
 
-{% if page.heroprofile.testimonial %}
+{% if page.testimonial %}
 	<blockquote class="testimonial">
 			<div class="container text-container">
-				<p class="quote">{{ page.heroprofile.testimonial.text }}</p>
+				<p class="quote">{{ page.testimonial.text }}</p>
 				<div class="author">
 					<img src="{{page.heroprofile.testimonial.image_path}}" width="350">
 					<p>
-						<span>{{ page.heroprofile.testimonial.name }}</span>
+						<span>{{ page.testimonial.name }}</span>
 						<br>
-						{{ page.heroprofile.testimonial.work_title }}
+						{{ page.testimonial.work_title }}
 					</p>
 				</div>
 			</div>
