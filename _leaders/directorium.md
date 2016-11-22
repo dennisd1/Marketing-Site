@@ -92,13 +92,5 @@ projects:
       [optimised](http://docs.cloudcannon.com/hosting/optimisations/) hosting
       for Brandon's sites.
     image_path: /img/customers/brandon/1.jpg
-footer:
-  summary: >-
-  Brandon ​gets​ sites online and updatable by clients faster than ​before​. He
-  doesn’t ​set up​ new servers and his clients are much happier.
-  calltitle: 
-  callsubtitle: 
-  callbutton: Примите участие в работе ассоциации!
-  callbuttonlink: https://www.directorium.pro/
-published: true
+
 ---
