@@ -70,7 +70,8 @@ projects:
 
 calltitle: Ольга участвует в проектах в качестве независимого эксперта
 callsubtitle: Рассматриваются средние и небольшие
-callbutton: Пригласить в свой проект
+callbutton: Принять участие в работе сообщества
+callbuttonlink: https://www.directorium.pro/
 published: true
 ---
 
