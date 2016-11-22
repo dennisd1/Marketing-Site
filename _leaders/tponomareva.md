@@ -23,7 +23,8 @@ heroprofile:
       Удалось добиться победы, которая принесла сотни миллионов рублей в год.
 testimonial:
   text: 'Уникальное дело! Теперь юристы знают, что асфальт - это не недвижимость'
-  image_path: /a/yhnin.jpg
+  ename: aykhnin
+  image_path: /a/aykhnin.jpg
   name: Юхнин Алексей Владимирович
   work_title: 
 juryprofile:
