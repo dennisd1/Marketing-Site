@@ -102,6 +102,10 @@ layout: default
 	<div class="container text-container">
 		<h2>Summary</h2>
 		{{ page.summary | markdownify }} <a href="{{ page.callbuttonlink }}" class="btn small-btn">{{ page.callbutton }}  &rarr;</a>
+	         {% assign url = page.url | prepend: site[jekyll.environment].url | cgi_escape %}
+				<a class="share-btn facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" target="_blank">
+						{% include social-icon.html social_icon="facebook" %} Поделиться
+					</a> 
 	</div>
 </section>
 
