@@ -94,7 +94,6 @@ layout: default
 		<h2>Реализованные проекты</h2>
 	</div>
 </section>
-{% assign postfix=20 %}
 {% for project in page.projects %}
 	<section class="{% cycle '', 'alternate' %}">
 		<div class="container">
@@ -104,11 +103,10 @@ layout: default
 			</div>
 			
 			<div class="image">
-				{% assign imgfile = "/a/" | append: ename | append: postfix | append: ".jpg" %}
+				{% increment postfix %}
+				{% assign imgfile = "/a/" | append: ename | append: 2 | append: postfix | append: ".jpg" %}
 				{{ imgfile }} <br>
 				<img class="screenshot" src="{{ project.image_path }}" width="550" alt="{{ project.name }}" /> <br>
-				{% increment postfix %}
-				{{ postfix }}
 			</div>
 		</div>
 	</section>
