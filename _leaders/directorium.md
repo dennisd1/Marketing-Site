@@ -23,10 +23,10 @@ heroprofile:
   solution: >
       Удалось добиться победы, которая принесла сотни миллионов рублей в год.
 testimonial:
-  text: 'Это был сложнейший случай, но мы справились.'
-  image_path: /img/customers/brandon/brandon.jpg
-  name: Иван Иванов
-  work_title: Член ревизионной комиссии
+  text: 'Мы приняли решение принять участие в качестве партнера, потому что это новый проект.'
+  image_path: /a/fedotov.jpg
+  name: Федотов Владислав
+  work_title: Исполнительный директор Директориум
 juryprofile:
   currentjury: true
   jurycategory: Эффективная ревизионная деятельность
