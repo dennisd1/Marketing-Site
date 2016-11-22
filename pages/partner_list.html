@@ -11,12 +11,16 @@ header_subtext: Learn how great companies use CloudCannon
 		{% if leader.heroprofile.heropartner == true %}
 		{% assign ename = leader.profile.ename %}
 		{% assign heroimg = "/a/" | append: ename | append: "01" | append: ".jpg" %}
-		<section class="alternate">
-			<a class="{{ leader.profile.secondname | slugify }}" href="{{ leader.url }}">
-				<img src="{{ heroimg }}"  />
-				<strong>{{ leader.profile.secondname }}</strong>
-			</a>
-		</section>
+		<section>
+			<div class="blog-post">
+				<div class="post-author-big">
+					<img src="{{ heroimg }}" alt="A stunning photo of {{ author[0].name }}" width="400" height="400">
+						<h3>{{ leader.profile.secondname }} {{ leader.profile.firstname }} {{ leader.profile.lastname }}</h3>
+						<a href="{{ post.url }}" class="btn small-btn">Подробнее  &rarr;</a>	
+						<p class="post-details">{{ leader.profile.title }}</p>
+					</div>
+			</div>
+		<section>
 		{% endif %}
 	{% endfor %}
 
