@@ -2,18 +2,18 @@
 profileid: 2100000000
 sort_key: 6
 sortpartnerkey: 1
-profiletype:  organization
+profiletype:  person
 profile:
-  ename: directorium
-  firstname: Директориум
-  secondname: 
+  ename: tponomareva
+  firstname: Татьяна
+  secondname: Пономарева
   lastname: 
-  headtitle: Ассоциация «Профессиональное сообщество директоров «Директориум»
-  summary: Ассоциация «Профессиональное сообщество директоров «Директориум» создана в соответствии с Соглашением от 22 июня 2013 г. между Агентством стратегических инициатив и Росимуществом
+  headtitle: Начальник юридического отдела
+  summary: Начальник юридического отдела
 heroprofile:
   hero: 
-  heropartner: true
-  heroaward: Партнер Национальной премии 2016 г. в номинации Директор года
+  heropartner: 
+  heroaward: Номинант Национальной премии 2016 г.
   herocategory: Юридическая победа года
   heroorganization: 
   challenge: >
@@ -21,13 +21,13 @@ heroprofile:
   solution: >
       Удалось добиться победы, которая принесла сотни миллионов рублей в год.
 testimonial:
-  text: 'Мы приняли решение принять участие в качестве партнера, потому что это новый проект.'
-  image_path: /a/fedotov.jpg
-  name: Федотов Владислав Евгеньевич
-  work_title: Исполнительный директор Директориум
+  text: 'Уникальное дело! Теперь юристы знают, что асфальт - это не недвижимость'
+  image_path: /a/ayukhnin.jpg
+  name: Юхнин Алексей Владимирович
+  work_title: 
 juryprofile:
-  currentjury: true
-  jurycategory: Эффективная ревизионная деятельность
+  currentjury: false
+  jurycategory: 
 
 
 projects:
@@ -70,9 +70,9 @@ projects:
     image_path: 
 
 calltitle: 
-calltoaction: Примите участие в работе сообщества Директориум! 
+calltoaction: 
 callsubtitle: 
-callbutton: Принять участие в работе сообщества
+callbutton: Обсудить проект с Татьяной
 callbuttonlink: https://www.directorium.pro/
 published: true
 ---
