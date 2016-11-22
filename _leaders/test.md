@@ -3,8 +3,8 @@ profileid: 2100000000
 sort_key: 6
 profiletype:  organization
 profile:
-  ename: aur
-  firstname: Ассоциация юристов России
+  ename: and
+  firstname: Ассоциация независимых директоров
   secondname: 
   lastname: 
   headtitle: Независимый директор
