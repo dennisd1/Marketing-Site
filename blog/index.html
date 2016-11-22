@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Blog
-description: Stay informed with the latest news and web development tutorials from CloudCannon, the Cloud CMS for Jekyll and static sites.
+description: Новости Национальной премии по управлению государственной собственностью.
 header: Блог
 header_subtext: Новости Национальной премии по управлению государственной собственностью
 sitemap:
@@ -37,7 +37,7 @@ sitemap:
 						{% endif %}
 					</p>
 
-					<a href="{{ post.url }}" class="btn small-btn">Read more  &rarr;</a>
+					<a href="{{ post.url }}" class="btn small-btn">Подробнее  &rarr;</a>
 				</li>
 			{% endfor %}
 		</ul>
@@ -46,7 +46,7 @@ sitemap:
 		<!-- Pagination links -->
 		<div class="pagination">
 			{% if paginator.previous_page %}
-				<a href="{{ paginator.previous_page_path }}" class="previous btn">&larr; Newer posts</a>
+				<a href="{{ paginator.previous_page_path }}" class="previous btn">&larr; Новые публикации</a>
 			{% else %}
 				<span class="previous">No Newer Posts</span>
 			{% endif %}
@@ -54,7 +54,7 @@ sitemap:
 			<span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
 
 			{% if paginator.next_page %}
-				<a href="{{ paginator.next_page_path }}" class="next btn">Older posts &rarr;</a>
+				<a href="{{ paginator.next_page_path }}" class="next btn">Предыдущие публикации &rarr;</a>
 			{% else %}
 				<span class="next">No Older Posts</span>
 			{% endif %}
