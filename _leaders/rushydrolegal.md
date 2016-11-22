@@ -10,6 +10,8 @@ profile:
   lastname: 
   headtitle: 
   summary: Начальник юридического отдела
+  slides: 3
+  projects: 3
 heroprofile:
   hero: 
   heropartner: 
