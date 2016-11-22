@@ -43,17 +43,6 @@ site_name: ОСК
 tagline: Номинант 2016 г
 categoryline: "Арбитражный управляющий года"
 
-overview:
-  - image_path: /a/tregubenko1.jpg
-    alt: Living and Learning
-  - image_path: /img/customers/brandon/2.jpg
-    alt: Northeast of the well
-  - image_path: /img/customers/brandon/3.jpg
-    alt: Norm
-  - image_path: /img/customers/brandon/4.jpg
-    alt: Northeast of the well
-  - image_path: /img/customers/brandon/5.jpg
-    alt: Norm
 projects:
   - name: Dropbox Syncing
     description: >-
