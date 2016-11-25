@@ -28,7 +28,7 @@ testimonial:
 juryprofile:
   currentjury: true
   jurycategory: Эффективная ревизионная деятельность
-
+slides: 5
 
 projects:
   - name: Dropbox Syncing
