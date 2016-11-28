@@ -92,7 +92,7 @@ of profile summary-->
 {% for project in page.projects %}
 	<section class="{% cycle '', 'alternate' %}">
 		<div class="container">
-			<div class="text">
+			<div class="text" contenteditable="true">
 				<h3>{{ project.name }}</h3>
 				{{ project.description | markdownify }}
 			</div>
