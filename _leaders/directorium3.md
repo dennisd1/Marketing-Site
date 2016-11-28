@@ -14,9 +14,9 @@ profile:
 heroprofile:
   hero: 
   heropartner: true
-  heroaward: Партнер Национальной премии 2016 г. в номинации Директор года
-  herocategory: Юридическая победа года
-  heroorganization: 
+  heroaward: Партнер Национальной премии 2016 г.
+  herocategory: в номинации "Директор года"
+  heroorganization:
   challenge: >
       Длительный судебный спор.
   solution: >
