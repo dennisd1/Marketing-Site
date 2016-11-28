@@ -97,8 +97,7 @@ of profile summary-->
 			
 			<div class="image">
 				{% assign projectimg = "/a/" | append: ename | append: 2 | append: count | append: ".jpg" %}
-				{{ projectimg }} <br>
-				 {% capture count %}{{ count | plus:1 }}{% endcapture %}
+				{% capture count %}{{ count | plus:1 }}{% endcapture %}
 				<img class="screenshot" src="{{ projectimg }}" width="550" alt="{{ project.name }}" /> <br>
 			</div>
 		</div>
