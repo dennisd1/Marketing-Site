@@ -9,20 +9,15 @@ profile:
   secondname: 
   lastname: 
   headtitle: Ассоциация «Профессиональное сообщество директоров «Директориум»
-  headtitle1: >-
-    Ассоциация «Профессиональное сообщество директоров «Директориум» (далее — Ассоциация) создана в соответствии с Соглашением от 22
-    июня 2013 г. между Агентством стратегических инициатив (АСИ) и Росимуществом. Основная цель деятельности — содействие экономическому
-    развитию Российской Федерации за счет: создания для профессионалов с активной жизненной позицией возможностей для самореализации,
-    развития и карьерного роста; повышения эффективности деятельности и ростa стоимости хозяйственных обществ; профессионального
-    развития, обучения и сертификации корпоративных директоров.
+  summary: Ассоциация «Профессиональное сообщество директоров «Директориум» создана в соответствии с Соглашением от 22 июня 2013 г. между Агентством стратегических инициатив и Росимуществом
   slides: 5
-  projects: 3
 heroprofile:
   hero: 
   heropartner: true
-  heroaward: Партнер Национальной премии 2016 г. в номинации Директор года
-  herocategory: Юридическая победа года
-  heroorganization: 
+  heroaward: Партнер Национальной премии 2016 г.
+  herocategory: в номинации "Директор года"
+  heroorganization:
+  herosummary: Партнер Премии во всех категориях
   challenge: >
       Длительный судебный спор.
   solution: >
@@ -35,28 +30,12 @@ testimonial:
 juryprofile:
   currentjury: true
   jurycategory: Эффективная ревизионная деятельность
-name: ОСК
-title: 'Номинант 2016:ОСК'
-site: 'http://brandonsetter.com/'
-site_name: ОСК
-tagline: Номинант 2016 г
-categoryline: "Арбитражный управляющий года"
+slides: 5
 
-overview:
-  - image_path: /a/tregubenko1.jpg
-    alt: Living and Learning
-  - image_path: /img/customers/brandon/2.jpg
-    alt: Northeast of the well
-  - image_path: /img/customers/brandon/3.jpg
-    alt: Norm
-  - image_path: /img/customers/brandon/4.jpg
-    alt: Northeast of the well
-  - image_path: /img/customers/brandon/5.jpg
-    alt: Norm
 projects:
   - name: Dropbox Syncing
     description: >-
-      Brandon develops sites in Jekyll on his computer. The files sync to
+      Это было очень непросто. The files sync to
       CloudCannon automatically through Dropbox.
 
 
@@ -90,17 +69,14 @@ projects:
       CloudCannon provides
       [optimised](http://docs.cloudcannon.com/hosting/optimisations/) hosting
       for Brandon's sites.
-    image_path: /img/customers/brandon/1.jpg
-<<<<<<< HEAD
-footer:
-  summary: >-
-=======
-summary: >
->>>>>>> parent of 1cff033... Update directorium.md
-  Brandon ​gets​ sites online and updatable by clients faster than ​before​. He
-  doesn’t ​set up​ new servers and his clients are much happier.
-calltitle: Ольга участвует в проектах в качестве независимого эксперта
-callsubtitle: Рассматриваются средние и небольшие
-callbutton: Пригласить в свой проект
+    image_path: 
+
+calltitle: 
+calltoaction: Примите участие в работе сообщества Директориум! 
+callsubtitle: 
+callbutton: Принять участие в работе сообщества
+callbuttonlink: https://www.directorium.pro/
 published: true
----
+img01: <img src="/uploads/default/original/1X/3934f82b1485aeee4c64a4e7fccd7b17ee8a8323.jpg" width="302" height="302">
+img1:
+img21:
