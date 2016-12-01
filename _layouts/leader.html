@@ -52,7 +52,18 @@ of profile summary-->
 	</div>
 </section>-->
 <section>
-<link rel="import" href="http://corp.vot.expert/raw/755">
+<div id='discourse-comments'></div>
+
+<script type="text/javascript">
+  DiscourseEmbed = { discourseUrl: 'http://corp.vot.expert/',
+                     topicId: 20 };
+
+  (function() {
+    var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+    d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+  })();
+</script>
 </section>
 {% if page.testimonial %}
 	<blockquote class="testimonial">
