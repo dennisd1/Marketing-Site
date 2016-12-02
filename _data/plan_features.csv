@@ -2,7 +2,7 @@ name,Basic,Agency,Enterprise,mobile_visible,category_name,tooltip
 Websites,Unlimited,Unlimited,Unlimited,TRUE,,
 Support,available,available,available,TRUE,,
 ,,,,,Site Features,
-Пробный,available,available,available,TRUE,,Let your clients edit their sites without paying for extra users.
+Пробный,available,available,available,TRUE,,Полезная вещь
 Custom Domains,available,available,available,TRUE,,Use your own root or subdomains (e.g. yoursite.com or www.yoursite.com).
 Testing Domains,available,available,available,TRUE,,Generated *.cloudvent.net domains you can use for testing.
 Hosting,available,available,available,TRUE,,Host your sites on supercharged CloudCannon infrastructure.
