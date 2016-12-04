@@ -44,7 +44,7 @@ data_source: resume-public
       <div class="row">
         {% for skill in resume.skills %}
         <div class="col-sm-4 col-md-3">
-          <div class="skill">{{skill.name}}</div>
+          <div class="skill">{{skill.name}} contenteditable="true"</div>
           <hr class="skills-hr">
           <ul class="list-unstyled">
             {% for keyword in skill.keywords %}
@@ -61,7 +61,7 @@ data_source: resume-public
   <!-- Experience Summary -->
   {% if resume.extras.overview %}
   <div class="row">
-    <div class="col-xs-2">
+    <div class="col-xs-2" contenteditable="true">
       <h4 class="section-title"> Experience </h4>
     </div>
     <div class="col-xs-10">
