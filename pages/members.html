@@ -8,6 +8,17 @@ permalink: /members/
 ---
 
 <section>
+	<ul>
+	{% for member in site.data.members %}
+  	<li>
+    	<a href="https://github.com/{{ member.github }}">
+      	{{ member.first_name }}
+    	</a>
+  	</li>
+	{% endfor %}
+	</ul>
+</section>
+<section>
 	<div class="container">
 		<table class="desktop-pricing">
 			<tr>
