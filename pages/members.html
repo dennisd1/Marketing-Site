@@ -8,9 +8,9 @@ permalink: /members/
 ---
 
 <section>
+	<div class="ui divided items">  
 	{% for member in site.data.members %}
-   	<div class="ui divided items">    
-			     <div class="item">
+   	     <div class="item">
 				  <div class="image">
 					<img src="/a/grishina.jpg">
 				  </div>
@@ -34,8 +34,7 @@ permalink: /members/
 					</div>
 				  </div>
 				</div>	
+		 	{% endfor %}
 		</div>	
-
-    	{% endfor %}
 </section>
 
