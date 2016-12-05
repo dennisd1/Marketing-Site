@@ -39,9 +39,7 @@
     						Home
   					</a>
   					{% for item in site.data.navigation %}
-							<a class="item">
-								<a href="{{ item.link }}" {% if item.link == page.url %}{% endif %}>{{ item.name }}</a>
-							 </a>
+							<a class="item" href="{{ item.link }}" {% if item.link == page.url %}{% endif %}>{{ item.name }} </a>
 					{% endfor %}
 					
   <div class="right menu">
