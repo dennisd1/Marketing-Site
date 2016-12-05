@@ -9,8 +9,30 @@ permalink: /members/
 
 <section>
 	{% for member in site.data.members %}
-  	   	   	<th>{{ member.first_name }}</th>
+  	 <div class="item">
+				  <div class="image">
+					<img src="http://icons.indats.com/sewlong/dogsled.jpg">
+				  </div>
+				  <div class="content">
+					<a class="header">Dog Sledding</a>
+					<div class="meta">
+					 <b>Saturday January 23</b> 3:30 pm - 5:00 pm
+					</div>
+					<div class="description">
+					  <p>Lorem ipsum dolor sit amet, pri ei sale sonet ornatus. Usu dicunt omnium cu. In vix dicam fuisset adipiscing, cibo delenit ius id, eu regione fuisset vix. Ne modo eruditi vim. Mea nostro mentitum conceptam in. Ei cum quaestio eleifend oportere.</p>
+					</div>
+					<div class="extra">
+					  <div class="ui right floated primary button add-button">
+						Add Activity
+						<i class="right chevron icon"></i>
+					  </div>
+					  <div class="ui label">21 and Over</div>
+					</div>
+				  </div>
+				</div>			
+        
+        
+  				
     	{% endfor %}
-	
 </section>
 
